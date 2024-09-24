@@ -1,0 +1,48 @@
+
+body{background: #24c474;
+    font: normal 17pt arial;
+
+}
+
+header{
+    color: rgb(134, 0, 251);
+    text-align: center;
+}
+
+section{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 10px 10px 1px #8600fb;
+    text-align: center;
+}
+
+#txtnome{
+    font-size: 15pt;
+    border-radius: 10px;
+    width: 170px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 0px rgba(5, 183, 59, 0.826);
+}
+
+#botao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 130px;
+    padding: 5px;box-shadow: 5px 5px 0px rgba(5, 183, 59, 0.826);
+}
+
+#resultado{
+   font-size: 18pt; 
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
