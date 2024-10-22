@@ -7,7 +7,7 @@ function pesquisa(){
         window.alert('[ERRO] preencha o campo para obter a resposta')
     } else if(name.value.trim().toLowerCase() =='tainar'){
         var img = document.createElement('img')
-        img.setAttribute ('src', 'foto-namorada.png')
+        img.setAttribute ('src', 'foto-Tainar.png')
         res.innerHTML = `<p>Nome:<b>${name.value}</b></p>
         <p>Idade: <b>28 Anos</p></b>
         <p>Altura: <b>1,80</p></b>
@@ -19,7 +19,7 @@ function pesquisa(){
 
     } else if (name.value.trim().toLowerCase() =='amadeu'){
         var img = document.createElement('img')
-        img.setAttribute ('src', 'foto-pai.png')
+        img.setAttribute ('src', 'foto-Amadeu.png')
         res.innerHTML = `<p>Nome:<b>${name.value}</b></p>
         <p>Idade: <b>45 Anos</p></b>
         <p>Altura: <b>1,70</p></b>
@@ -31,7 +31,7 @@ function pesquisa(){
 
     } else if (name.value.trim().toLowerCase() =='renata'){
         var img = document.createElement('img')
-        img.setAttribute ('src', 'foto-mae.png')
+        img.setAttribute ('src', 'foto-Renata.png')
         res.innerHTML = `<p>Nome:<b>${name.value}</b></p>
         <p>Idade: <b>49 Anos</p></b>
         <p>Altura: <b>1,75</p></b>
@@ -43,7 +43,7 @@ function pesquisa(){
 
     }else if (name.value.trim().toLowerCase() =='marcelo'){
         var img = document.createElement('img')
-        img.setAttribute ('src', 'foto-irmao.png')
+        img.setAttribute ('src', 'foto-Marcelo.png')
         res.innerHTML = `<p>Nome:<b>${name.value}</b></p>
         <p>Idade: <b>26 Anos</p></b>
         <p>Altura: <b>1,85</p></b>
@@ -55,7 +55,7 @@ function pesquisa(){
 
     } else if (name.value.trim().toLowerCase() =='beatriz'){
         var img = document.createElement('img')
-        img.setAttribute ('src', 'foto-irma.png')
+        img.setAttribute ('src', 'foto-Beatriz.png')
         res.innerHTML = `<p>Nome:<b>${name.value}</b></p>
         <p>Idade: <b>18 Anos</p></b>
         <p>Altura: <b>1,77</p></b>
